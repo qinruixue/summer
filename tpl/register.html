@@ -1,0 +1,19 @@
+<div class="list list-inset">
+    <div class="item item-image">
+        <img src="img/13.png" class="img-responsive">
+    </div>
+    <label class="item item-input item-floating-label">
+        <span class="input-label">用户名</span>
+        <input type="text" placeholder="请输入用户名" ng-model="user.name"/>
+    </label>
+    <label class="item item-input item-floating-label">
+        <span class="input-label">密码</span>
+        <input type="password" placeholder="请输入密码" ng-model="user.pwd"/>
+    </label>
+    <button type="submit"
+            class="button button-block button-balanced">注册
+    </button>
+</div>
+<div class="row">
+    <div class="col col-offset-66" ng-click="jump('login')">已注册,请登录&gt;&gt;</div>
+</div>

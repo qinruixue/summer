@@ -1,0 +1,29 @@
+<div id="container">
+    <div id="slider">
+        <img class="img-responsive" ng-src="img/{{imgList[index]}}">
+    </div>
+    <div class="list list-inset">
+        <label class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="text" placeholder="Search···">
+        </label>
+    </div>
+</div>
+<div class="row">
+    <div class="col" ng-click="jump('main')">
+        <img class="img-responsive" src="img/icon.jpg" alt="1">
+        <p style="margin-left:10px;">最新推荐</p>
+    </div>
+    <div class="col" ng-click="jump('main')">
+        <img class="img-responsive" src="img/icon1.jpg" alt="1">
+        <p style="margin-left:10px;">热门菜谱</p>
+    </div>
+    <div class="col" ng-click="jump('main')">
+        <img class="img-responsive" src="img/icon2.jpg" alt="1">
+        <p style="margin-left:10px;">人气推荐</p>
+    </div>
+    <div class="col" ng-click="jump('main')">
+        <img class="img-responsive" src="img/icon3.jpg" alt="1">
+        <p style="margin-left:15px;">优惠券</p>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+p{
+  color:#f00;
+}
